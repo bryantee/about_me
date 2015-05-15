@@ -1,0 +1,168 @@
+body {
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Halvetica Neue", sans-serif;
+  font-weight: light;
+}
+
+.masthead {
+  border-top-color: #E99846;
+  border-top-style: solid;
+  border-width: 20px;
+  padding: 14em 0;
+  background-image: url('http://i.imgur.com/JCW0LqR.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1000px) {
+  .masthead {
+    border-width: 75px;
+  }
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2.7em;
+}
+
+.masthead-heading {
+  margin-top: -0.1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  text-shadow: 0px 7px 0px #E99846;
+  font-size: 7em;
+  text-transform: uppercase;
+}
+
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+  color: white;
+}
+
+#content-intro > p,
+#background > p,
+.content-footer > p {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+#content-intro,
+#background,
+#questions {
+  margin-top: 2em;
+  /* 
+  padding: 0 30em; 
+  */
+  
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.qa-header {
+  font-size: 1.5em;
+  color: #E99846;
+}
+
+.content-header {
+  font-size: 2em;
+  color: #222222
+}
+
+a {
+  font-weight: bold;
+  color: gold;
+  text-decoration: none;
+}
+
+.content-paragraph {
+  letter-spacing: 1px;
+  /* font-family: roboto-condensed, sans-serif; */
+}
+/* 
+footer {
+  height: 7em;
+  margin-top: 5px;
+  padding: ;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-color: brown;
+  
+} */
+
+.projects {
+  max-width: 45em;
+  margin: 0 auto;
+  padding: 3em 0;
+  text-align: center;
+}
+
+.projects .project {
+  display: inline-block;
+  padding: 2.5em;
+}
+
+.content-footer {
+  text-align: center;
+  background-color: #734329;
+  color: white;
+  padding: 2em;
+}
+
+.social > li {
+  display: inline-block;
+  padding: 0 .5em;
+}
+
+.social > ul {
+  padding-left: -2em;
+  text-align: center;
+}
+
+.content-footer {
+  margin-top: 2em;
+}
+
+footer.content-footer ul.social {
+  padding-left: 0;
+}
+
+.social-icon {
+  font-size: 3em;
+}
+
+@media only screen and (max-width: 1000px) {
+  .masthead-heading {
+    font-size: 12em;
+  }
+  .masthead-intro {
+    font-size: 6em;
+  }
+  .content-header {
+    font-size: 5em;
+    font-weight: 600;
+  }
+  #content-intro,
+  #background,
+  #questions {
+    max-width: 85%;
+    font-size: 1.5em;
+  }
+  .social {
+    font-size: 3em;
+  }
+  .closer {
+    font-size: 0.7em;
+  }
+  .content-footer {
+    margin-top: 5em;
+    padding: 15em 0;
+  }
+  .masthead {
+    padding: 6em 0;
+  }
+}
