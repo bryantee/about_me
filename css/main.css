@@ -126,9 +126,9 @@ footer {
 }
 
 .project > img {
-  width: 100%;
+  max-width: 100%;
   border: solid 2px LightGrey;
-  padding: 1em;
+  padding: 0em;
   border-radius: 15px 15px;
 }
 
@@ -141,10 +141,10 @@ footer {
 
 @media only screen and (max-width: 1000px) {
   .project h4 {
-    font-size: 4em;
+    font-size: 3em;
   }
   .project a {
-    font-size: 2.8em;
+    font-size: 2em;
   }
 }
 
@@ -189,7 +189,7 @@ footer.content-footer ul.social {
     font-size: 4em;
   }
   .content-header {
-    font-size: 2.6em;
+    font-size: 2.2em;
     font-weight: 600;
   }
   #content-intro,
@@ -198,8 +198,8 @@ footer.content-footer ul.social {
     max-width: 85%;
     font-size: 1.5em;
   }
-  .social {
-    font-size: 3em;
+  .social-icon {
+    font-size: 5em;
   }
   .closer {
     font-size: 0.7em;
@@ -210,5 +210,11 @@ footer.content-footer ul.social {
   }
   .masthead {
     padding: 6em 0;
+  }
+  .projects-heading {
+    font-size: 5em;
+  }
+  ul.social {
+    margin-bottom: 1em;
   }
 }
